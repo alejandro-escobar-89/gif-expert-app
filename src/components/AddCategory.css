@@ -1,0 +1,14 @@
+#category_search_form {
+    display: flex;
+    gap: 0.75em;
+}
+
+#add_category_btn {
+    width: fit-content;
+}
+
+@media (max-width: 360px) {
+    #category_search_form {
+        flex-direction: column;
+    }
+}
